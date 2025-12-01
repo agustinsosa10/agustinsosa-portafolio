@@ -2,7 +2,7 @@ import React from "react";
 import RevealOnScroll from "../RevealOnScroll";
 
 const About = () => {
-  const frontendSkills = ["JavaScript", "React", "Html", "Css", "TailwindCSS"];
+  const frontendSkills = ["JavaScript", "React", "HTML", "CSS", "TailwindCSS"];
 
   const backendSkills = [
     "Node.js",
@@ -12,6 +12,8 @@ const About = () => {
     "PHP",
     "MongoDB",
     "MySQL",
+    "Next.js",
+    "PostgreSQL"
   ];
 
   const versionsControlSkills = ["GitHub", "Git"];
@@ -83,7 +85,15 @@ const About = () => {
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong>Programador Universitario de Sistemas </strong> -
-                  Universidad Nacional de Villa Mercedes (2022-2025)
+                  Universidad Nacional de Villa Mercedes (2022-2025). Graduado
+                </li>
+                <li>
+                  <strong>Tecnicatura en Mantenimiento Industrial</strong> -
+                  Universidad Nacional de San Luis (2021-2022).
+                </li>
+                <li>
+                  <strong>Ingenieria Quimica</strong> -
+                  Universidad Nacional de San Luis (2020-2021).
                 </li>
                 <li>
                   Curso: <strong>Full Stack Open</strong> - Desarrollo Web
@@ -108,7 +118,7 @@ const About = () => {
                 <div>
                   <li>
                     <h4 className="font-semibold">
-                      Desarrollo CRUD con PHP y MySQL
+                      CRUD con PHP y MySQL
                     </h4>
                     <p>Aplicación fullstack con enfasis en gestion de datos</p>
                   </li>
@@ -126,8 +136,15 @@ const About = () => {
                 </div>
                 <div>
                   <li>
-                    <h4 className="font-semibold">Desarrollo ABM con C</h4>
-                    <p>Lógica de programación estructurada y manejo de datos</p>
+                    <h4 className="font-semibold">Sistema ABM de Reparaciones en C</h4>
+                    <p>Desarrollo de una aplicación web para toma de pedidos en locales gastronómicos, con gestión de productos, carrito y flujo completo de autoservicio.</p>
+                    <p></p>
+                  </li>
+                </div>
+                <div>
+                  <li>
+                    <h4 className="font-semibold">Sistema de Autoservicio con Next.js</h4>
+                    <p>Desarrollo de una aplicación web para toma de pedidos en locales gastronómicos, con gestión de productos, carrito y flujo completo de autoservicio.</p>
                   </li>
                 </div>
               </div>

@@ -21,7 +21,7 @@ const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Técnico en Programador de Sistemas, apasionado por la tecnología y por encontrar soluciones claras y simples, siempre buscando aprender algo nuevo y mejorar en cada proyecto que emprendo.
+            Técnico en Programador de Sistemas graduado en la Universidad Nacional de Villa Mercedes (UNViMe). Apasionado por la tecnología y por encontrar soluciones claras y simples, siempre buscando aprender algo nuevo y mejorar en cada proyecto que emprendo.
           </p>
           <div className="flex justify-center space-x-4 ">
             <a

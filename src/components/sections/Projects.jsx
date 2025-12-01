@@ -116,7 +116,7 @@ const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/agustinsosa10/proyecto-votos"
+                  href="https://github.com/agustinsosa10/node"
                   target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
@@ -127,12 +127,12 @@ const Projects = () => {
             </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">FullStackOpen – Ejercicios y prácticas del curso de desarrollo web completo</h3>
+              <h3 className="text-xl font-bold mb-2">Sistema de Autoservicio para Local Gastronómico</h3>
               <p className="text-gray-400 mb-3">
-               Repositorio con mis resoluciones del curso FullStackOpen, donde trabajé diversos ejercicios que abarcan desde fundamentos de aplicaciones web hasta desarrollo de frontend, backend, comunicación cliente-servidor y arquitectura modular. Refuerza mi formación en desarrollo web integral, organización de código y buenas prácticas.
+              Aplicación desarrollada como proyecto de tesis, diseñada para optimizar la toma de pedidos en locales gastronómicos mediante un sistema de autoservicio intuitivo y eficiente. El sistema permite a los clientes realizar pedidos directamente desde una interfaz interactiva, reduciendo tiempos de espera y mejorando la organización del proceso de venta.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "Express", "MongoDB", "JavaScript"].map((tech, key) => (
+                {["Next.js","React", "Prisma", "PostgreSQL", "TypeScript", "TailwindCSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all"
@@ -144,7 +144,7 @@ const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/agustinsosa10/fullstackopen"
+                  href="https://github.com/agustinsosa10/sistemaAutoservicio"
                   target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
