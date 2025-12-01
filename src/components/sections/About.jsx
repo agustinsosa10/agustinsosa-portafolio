@@ -13,7 +13,7 @@ const About = () => {
     "MongoDB",
     "MySQL",
     "Next.js",
-    "PostgreSQL"
+    "PostgreSQL",
   ];
 
   const versionsControlSkills = ["GitHub", "Git"];
@@ -31,8 +31,7 @@ const About = () => {
 
           <div className="glass rounded-xl p-8 border-white/10  border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              lorem ipsum sknfsknfnfdskosnsf oansfnafknafsnknfs a
-              nsaknfaknsflkns
+              Soy Agustín Sosa, Técnico en Programador de Sistemas graduado en la Universidad Nacional de Villa Mercedes (UNViMe). Me motiva aprender, investigar y mejorar constantemente. Disfruto trabajar con organización, atención al detalle y un enfoque práctico. A lo largo de mi formación y mediante proyectos personales, he adquirido experiencia desarrollando aplicaciones web, backend y bases de datos. Busco seguir creciendo como desarrollador y participar en proyectos donde pueda aportar soluciones claras, simples y eficientes.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -81,7 +80,7 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Formacion</h3>
+              <h3 className="text-xl font-bold mb-4">🎓 Educacion </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong>Programador Universitario de Sistemas </strong> -
@@ -92,8 +91,8 @@ const About = () => {
                   Universidad Nacional de San Luis (2021-2022).
                 </li>
                 <li>
-                  <strong>Ingenieria Quimica</strong> -
-                  Universidad Nacional de San Luis (2020-2021).
+                  <strong>Ingenieria Quimica</strong> - Universidad Nacional de
+                  San Luis (2020-2021).
                 </li>
                 <li>
                   Curso: <strong>Full Stack Open</strong> - Desarrollo Web
@@ -102,7 +101,7 @@ const About = () => {
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Experiencia Academica</h3>
+              <h3 className="text-xl font-bold mb-4">💼 Experiencia Academica</h3>
               <div className="space-y-4 text-gray-300 ">
                 <div>
                   <li>
@@ -117,9 +116,7 @@ const About = () => {
                 </div>
                 <div>
                   <li>
-                    <h4 className="font-semibold">
-                      CRUD con PHP y MySQL
-                    </h4>
+                    <h4 className="font-semibold">CRUD con PHP y MySQL</h4>
                     <p>Aplicación fullstack con enfasis en gestion de datos</p>
                   </li>
                 </div>
@@ -136,15 +133,27 @@ const About = () => {
                 </div>
                 <div>
                   <li>
-                    <h4 className="font-semibold">Sistema ABM de Reparaciones en C</h4>
-                    <p>Desarrollo de una aplicación web para toma de pedidos en locales gastronómicos, con gestión de productos, carrito y flujo completo de autoservicio.</p>
+                    <h4 className="font-semibold">
+                      Sistema ABM de Reparaciones en C
+                    </h4>
+                    <p>
+                      Desarrollo de una aplicación web para toma de pedidos en
+                      locales gastronómicos, con gestión de productos, carrito y
+                      flujo completo de autoservicio.
+                    </p>
                     <p></p>
                   </li>
                 </div>
                 <div>
                   <li>
-                    <h4 className="font-semibold">Sistema de Autoservicio con Next.js</h4>
-                    <p>Desarrollo de una aplicación web para toma de pedidos en locales gastronómicos, con gestión de productos, carrito y flujo completo de autoservicio.</p>
+                    <h4 className="font-semibold">
+                      Sistema de Autoservicio con Next.js
+                    </h4>
+                    <p>
+                      Desarrollo de una aplicación web para toma de pedidos en
+                      locales gastronómicos, con gestión de productos, carrito y
+                      flujo completo de autoservicio.
+                    </p>
                   </li>
                 </div>
               </div>

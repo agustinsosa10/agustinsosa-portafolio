@@ -16,12 +16,12 @@ const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 pb-1 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
+          <h1 className="text-6xl md:text-7x1 font-bold mb-6 pb-1 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
             Agustin Sosa - Developer
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Técnico en Programador de Sistemas graduado en la Universidad Nacional de Villa Mercedes (UNViMe). Apasionado por la tecnología y por encontrar soluciones claras y simples, siempre buscando aprender algo nuevo y mejorar en cada proyecto que emprendo.
+            Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones claras, simples y efectivas. Me motiva aprender algo nuevo cada día y mejorar continuamente en cada proyecto.
           </p>
           <div className="flex justify-center space-x-4 ">
             <a
